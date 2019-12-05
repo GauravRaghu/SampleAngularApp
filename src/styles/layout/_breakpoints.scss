@@ -1,0 +1,13 @@
+// Breakpoints for different devuces
+$bp-sm: 575px;
+$bp-md: 767px;
+$bp-lg: 991px;
+$bp-xl: 1199px;
+
+// media queries targetting different devices
+// this is written with mobile first approach i.e. mobile no media query
+
+$layout-small: '(min-width : #{$bp-sm+1})';
+$layout-medium: '(min-width : #{$bp-md+1})';
+$layout-large: '(min-width : #{$bp-lg+1})';
+$layout-extra-large: '(min-width : #{$bp-xl+1})';

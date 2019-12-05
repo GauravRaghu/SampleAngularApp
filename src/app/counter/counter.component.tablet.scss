@@ -1,0 +1,6 @@
+@import '../../styles/main';
+@media #{$layout-medium} {
+  h1 {
+    color: 'ffff00';
+  }
+}
